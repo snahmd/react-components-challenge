@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       
-      <Frame title={"Lorem ipsum dolor sit amet."} text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias."}>
+      <Frame title={"Xaccordion Component"} text={"Accordion Component Usage.."}>
+      
       <XAccordion
           content={[
             {
@@ -17,10 +18,7 @@ function App() {
             },
             {
               title: "Lorem ipsum dolor sit, amet c.",
-              desc: [
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem id a eius aliquid vel asperiores! Quam neque ullam, quos placeat distinctio deleniti voluptatum officia rem pariatur praesentium, eius sunt ducimus.",
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem id a eius aliquid vel asperiores! Quam neque ullam, quos placeat distinctio deleniti voluptatum officia rem pariatur praesentium, eius sunt ducimus.",
-              ],
+              desc: "Lorem ipsum dolor sit amet.",
             },
           ]}
           preExpanded={false}
